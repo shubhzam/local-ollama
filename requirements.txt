@@ -2,3 +2,4 @@ flask
 langchain-community==0.2.6
 fastembed==0.3.2
 chromadb
+pdfplumber
