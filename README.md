@@ -18,7 +18,7 @@
 ### Select key = 'file' and type = file. Set value by uploading Corpus.pdf
 ### Click on Send
 
-### Once uploading the pdf, go to  POST http://localhost:8080/ask_pdf ->Select Bodt -> raw
+### Once uploading the pdf, go to  POST http://localhost:8080/ask_pdf ->Select Body -> raw
 ### Type your question in JSON format with key = query and value = question you want to ask?
 ### example =
 ##### {
