@@ -1,4 +1,4 @@
-# computermarkethub
+# Computer Market Hub- AI intern Assignment
 
 ## Install ollama
 ### Go to www.ollama.com/download 
