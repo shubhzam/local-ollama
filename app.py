@@ -22,7 +22,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 raw_prompt = PromptTemplate.from_template(
     """ 
-    <s>[INST] You are a technical assistant good at searching docuemnts. If you do not have an answer from the provided information so  ~   .[/INST]</s>
+    <s>[INST] You are a technical assistant good at searching docuemnts. If you do not have an answer from the provided information you must reply "Please Contact to Business directly".[/INST]</s>
     [INST] {input}
            Context: {context}
            Answer:
@@ -62,7 +62,7 @@ def askPDFPost():
     retriever = vector_store.as_retriever(
         search_type="similarity_score_threshold",
         search_kwargs={
-            "k": 20,
+            "k": 3,
             "score_threshold": 0.1,
         },
     )
