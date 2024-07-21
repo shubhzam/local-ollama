@@ -21,8 +21,9 @@
 ### Once uploading the pdf, go to  POST http://localhost:8080/ask_pdf ->Select Bodt -> raw
 ### Type your question in JSON format with key = query and value = question you want to ask?
 ### example =
-###
-### {
-###    "query" : "Tell me about Jessup Cellars."
-### }
+##### {
+#####    "query" : "Tell me about Jessup Cellars."
+##### }
 ### Click on Send
+
+## Response will be generated.  
